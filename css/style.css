@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+/* ================= GENERAL STYLES ================================= */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Catamaran', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+	font-size: 64px;
+}
+a{
+	color: rgb(53, 152, 245);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(255, 122, 53);
+}
+a:visited{
+	color: rgba(255, 122, 53, 0.4);
+}
+
+
+/* ================HEADER STYLES ====================================*/
+
+.top-bar{	
+	padding: 20px;
+    height: auto;
+}
+.logo{
+    font-size: 0.9em;
+    width: 20%;
+}
+header nav{
+	text-transform: uppercase;
+    width: 60%;
+}
+header nav ul li{
+	line-height: 112px;
+	list-style: none;
+	display: inline;
+	margin-right: 25px;
+}
+.subscribe{
+	text-transform: uppercase;
+	width: 20%;
+	background-color: rgba(53, 152, 245, 0.9);
+	border-radius: 25px;
+	width: 175px;
+	height: 48px;
+    margin: auto;
+    color: #ffffff;
+}
+.subscribeText{
+	width: 104px;
+	height: 23px;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 14px;
+}
+.hero{
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(to bottom,rgb(255, 255, 255), rgb(53, 152, 245));
+        margin: 20px;
+}    
+
+.hero h1{
+    padding-top: 50px;
+	width: 738px;
+    margin: auto;
+}
+
+
+/* ======================= ABOUT STYLES ============================== */
+.about{
+	margin-top: 100px;
+	text-align: center;
+	color: #000000;
+}
+.about h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #C3C0C0;
+}
+.about p{
+	margin: auto;
+	width: 904px;
+	height: 180px;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 24px;
+}
